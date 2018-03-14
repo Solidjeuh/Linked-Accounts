@@ -3,6 +3,7 @@
 *
 * @package phpBB Extension - Linked Accounts
 * @copyright (c) 2018 Flerex
+* @author Nederlandse vertaling
 * Nederlandse vertaling @ Solidjeuh <https://www.muziekpromo.net>
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
@@ -20,7 +21,9 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 
+	// General translations
 	'LINKED_ACCOUNTS'						=> 'Gekoppelde accounts',
+	'ADM_LINKED_ACCOUNTS'					=> 'Gekoppelde accounts',
 	
 	// UCP Management Module
 	'LINKED_ACCOUNTS_MANAGEMENT'			=> 'Account beheer',
@@ -47,4 +50,18 @@ $lang = array_merge($lang, array(
 	// Switching process
 	'ACCOUNTS_SWITCHED'						=> 'Accounts werden succesvol gewisseld.',
 	'INVALID_LINKED_ACCOUNT'				=> 'U kunt niet overschakelen naar dit account.',
+
+	// ACP Overview Module
+	'ADM_LINKED_ACCOUNTS_OVERVIEW'			=> 'Overzicht',
+	'ADM_LINKED_ACCOUNTS_OVERVIEW_EXPLAIN'	=> 'In deze sectie vindt u enkele gebruiker statistieken samen met een lijst met de gebruikers die koppelingen naar andere accounts hebben.',
+	'LINKED_ACCOUNTS_COUNT'					=> 'gebruikers met koppelingen',
+	'LINKED_ACCOUNTS_COUNT_EXPLAIN'			=> 'Aantal accounts met ten minste één koppeling.',
+	'LINK_COUNT'							=> 'Koppelingen',
+	'LINK_COUNT_EXPLAIN'					=> 'Totaal aantal gemaakte koppelingen.',
+	'NO_ACCOUNTS_LINKED'					=> 'Er zijn geen accounts met koppelingen.',
+	
+	// ACP Management Module
+	'ADM_LINKED_ACCOUNTS_MANAGEMENT'		=> 'Beheer gebruikers',
+	'SELECT_USER'							=> 'Selecteer gebruiker',
+	'MANAGING_USER'							=> 'Gebruikers beheer :: %s',
 ));
