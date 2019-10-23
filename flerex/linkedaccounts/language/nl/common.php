@@ -1,12 +1,13 @@
 <?php
 /**
-*
-* Linked Accounts extension for phpBB 3.2
-*
-* @copyright (c) 2018 Flerex
-* @license GNU General Public License, version 2 (GPL-2.0)
-*
-*/
+ *
+ * Linked Accounts extension for phpBB 3.2
+ *
+ * @copyright (c) 2018 Flerex
+ * @author        Flerex <flerex@icloud.com>
+ * @license       GNU General Public License, version 2 (GPL-2.0)
+ *
+ */
 
 if (!defined('IN_PHPBB'))
 {
@@ -58,7 +59,7 @@ $lang = array_merge($lang, array(
 	'LINK_COUNT'							=> 'Koppelingen',
 	'LINK_COUNT_EXPLAIN'					=> 'Totaal aantal gemaakte koppelingen.',
 	'NO_ACCOUNTS_LINKED'					=> 'Er zijn geen accounts met koppelingen.',
-	
+
 	// ACP Management Module
 	'ADM_LINKED_ACCOUNTS_MANAGEMENT'		=> 'Beheer gebruikers',
 	'SELECT_USER'							=> 'Selecteer gebruiker',
@@ -77,4 +78,8 @@ $lang = array_merge($lang, array(
 	'CONF_RETURN_TO_INDEX_EXPLAIN'			=> 'Als dit niet is ingeschakeld, keren accounts standaard naar dezelfde pagina terug.',
 	'CONF_PRIVATE_LINKS'					=> 'Private links',
 	'CONF_PRIVATE_LINKS_EXPLAIN'			=> 'Als u deze optie instelt op “Ja”, wordt het account koppel menu verborgen als een gebruiker geen account koppel permissies heeft, ook niet als het account koppelingen bevat. Dit kan een veiligheidsrisico vormen en het wordt aanbevolen om uitgeschakeld te blijven.',
+
+	// Posting as
+	'POSTING_AS'                            => 'Posten als',
+
 ));
